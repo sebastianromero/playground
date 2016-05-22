@@ -1,0 +1,20 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Basic HTML & JS playground for trying out code. Includes BrowserSync.",
+  "scripts": {
+    "serve": "browser-sync start --server --files \"*\" "
+  },
+  "keywords": [
+    "test",
+    "playground",
+    "javascript",
+    "foundation",
+    "browser-sync"
+  ],
+  "author": "Sebastian Romero (http://www.sebastianromerog.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.12.8"
+  }
+}
